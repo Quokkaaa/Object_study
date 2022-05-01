@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AB59AC4E281E08AE0097D966 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59AC4D281E08AE0097D966 /* main.swift */; };
+		AB59AC55281E08C70097D966 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59AC54281E08C70097D966 /* Invitation.swift */; };
+		AB59AC57281E0C4F0097D966 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59AC56281E0C4F0097D966 /* Ticket.swift */; };
+		AB59AC59281E0C570097D966 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59AC58281E0C570097D966 /* Bag.swift */; };
+		AB59AC5B281E1E150097D966 /* Audience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59AC5A281E1E150097D966 /* Audience.swift */; };
+		AB59AC5D281E1F610097D966 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59AC5C281E1F610097D966 /* TicketOffice.swift */; };
+		AB59AC5F281E22A30097D966 /* TicketSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59AC5E281E22A30097D966 /* TicketSeller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		AB59AC4A281E08AE0097D966 /* TiketSaler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TiketSaler; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB59AC4D281E08AE0097D966 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB59AC54281E08C70097D966 /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		AB59AC56281E0C4F0097D966 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		AB59AC58281E0C570097D966 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		AB59AC5A281E1E150097D966 /* Audience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audience.swift; sourceTree = "<group>"; };
+		AB59AC5C281E1F610097D966 /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
+		AB59AC5E281E22A30097D966 /* TicketSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSeller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				AB59AC4D281E08AE0097D966 /* main.swift */,
+				AB59AC54281E08C70097D966 /* Invitation.swift */,
+				AB59AC56281E0C4F0097D966 /* Ticket.swift */,
+				AB59AC5C281E1F610097D966 /* TicketOffice.swift */,
+				AB59AC58281E0C570097D966 /* Bag.swift */,
+				AB59AC5A281E1E150097D966 /* Audience.swift */,
+				AB59AC5E281E22A30097D966 /* TicketSeller.swift */,
 			);
 			path = TiketSaler;
 			sourceTree = "<group>";
@@ -120,7 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB59AC5D281E1F610097D966 /* TicketOffice.swift in Sources */,
+				AB59AC55281E08C70097D966 /* Invitation.swift in Sources */,
+				AB59AC57281E0C4F0097D966 /* Ticket.swift in Sources */,
+				AB59AC59281E0C570097D966 /* Bag.swift in Sources */,
 				AB59AC4E281E08AE0097D966 /* main.swift in Sources */,
+				AB59AC5B281E1E150097D966 /* Audience.swift in Sources */,
+				AB59AC5F281E22A30097D966 /* TicketSeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
